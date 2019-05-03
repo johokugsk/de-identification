@@ -24,8 +24,6 @@ public class TaggingBIOforDummy {
 	static {
 		Mode mode = Mode.valueOf("NORMAL");
 		// 使う辞書の指定
-		// String userDic =
-		// "/home/kkajiyama/workspace/kuromoji/user_dic/wikipedia.csv";
 		 String userDic = "~/workspace/MedNLPDoc/data/wikipedia_addbyomei.csv";
 //		String userDic = "~/workspace/kuromoji/user_dic/wikipedia.csv";
 		try {

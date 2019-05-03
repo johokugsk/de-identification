@@ -33,9 +33,9 @@ public class RuleAnonymizeFormatingEHR {
 		Mode mode = Mode.valueOf("NORMAL");
 		//使う辞書の指定
 		// String userDic = "/home/kkajiyama/workspace/kuromoji/user_dic/wikipedia.csv";
-		String userDic = "/data/home/kkajiyama/workspace/MedNLPDoc/data/wikipedia_addbyomei.csv";
-		// String userDic = "/data/home/kkajiyama/workspace/kuromoji/user_dic/wikipedia.csv";
-		//		String userDic = "/data/home/kkajiyama/workspace/TaggingBIO/neologd-dic/mecab-user-dict-seed.20170727.csv";
+		String userDic = "~/workspace/MedNLPDoc/data/wikipedia_addbyomei.csv";
+		// String userDic = "~/workspace/kuromoji/user_dic/wikipedia.csv";
+		//		String userDic = "~/workspace/TaggingBIO/neologd-dic/mecab-user-dict-seed.20170727.csv";
 		//		String userDic = "../kuromoji/user_dic/wikipedia.csv";
 		try {
 			tokenizer = Tokenizer.builder().mode(mode).userDictionary(userDic).build();
@@ -50,11 +50,11 @@ public class RuleAnonymizeFormatingEHR {
 	static final String HOSPITAL_TAG = "h";
 	static final String SEX_TAG = "x";
 	// file 
-//	static final File INPUT_FILENAME = new File("/data/home/kkajiyama/workspace/NHOTasks/MedNLPs_Data/medNLP1.xml");
-//	static final File FORMATED_FILE = new File("/data/home/kkajiyama/workspace/NHOTasks/forRule/20180625_2.txt");
+//	static final File INPUT_FILENAME = new File("~/workspace/NHOTasks/MedNLPs_Data/medNLP1.xml");
+//	static final File FORMATED_FILE = new File("~/workspace/NHOTasks/forRule/20180625_2.txt");
 
-	static final File INPUT_FILENAME = new File("/data/home/kkajiyama/workspace/NHOTasks/MedNLPs_Data/medNLP1.xml");
-	static final File FORMATED_FILE = new File("/data/home/kkajiyama/workspace/NHOTasks/forRule/20180625_2.txt");
+	static final File INPUT_FILENAME = new File("~/workspace/NHOTasks/MedNLPs_Data/medNLP1.xml");
+	static final File FORMATED_FILE = new File("~/workspace/NHOTasks/forRule/20180625_2.txt");
 	
 	static boolean firstProcess = true; // first process of all process
 	static boolean inTag = false;

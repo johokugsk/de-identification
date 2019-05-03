@@ -18,9 +18,6 @@ import java.util.ArrayList;
 
 public class MedNLP1TopTeamRule {
 
-//	static File inputFileName = new File("~/workspace/NHOTasks/forCrossValiDum/crossValiRuleK4.txt"); // crf's predict data
-//	static File outputFileName = new File("~/workspace/NHOTasks/forLouhiRule/crossDumK4Result.txt"); // for output
-
 	static File inputFileName = new File("~/Documents/crossVali/Byori2/crossValiRuleK4.txt"); // crf's predict data
 	static File outputFileName = new File("~/Documents/result20190430/ruleK4.txt"); // for output
 	
